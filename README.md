@@ -78,3 +78,44 @@ ml-ids-developer-trust/
 ├── LICENSE
 ├── README.md
 └── requirements.txt
+
+Getting Started
+Prerequisites
+Python 3.8+
+
+Jupyter Notebook / Google Colab
+
+Installation & Execution
+Clone the repository:
+
+Bash
+git clone [https://github.com/GSA-commits/ml-ids-developer-trust.git](https://github.com/GSA-commits/ml-ids-developer-trust.git)
+cd ml-ids-developer-trust
+Install dependencies:
+
+Bash
+pip install -r requirements.txt
+Dataset Setup:
+Download UNSW_NB15_training-set.csv and UNSW_NB15_testing-set.csv from the UNSW-NB15 Dataset Page and place them in data/raw/.
+
+Run Model Experiments:
+Launch Jupyter Notebook or Google Colab and execute:
+
+Bash
+jupyter notebook notebooks/ml_ids_false_positive_experiment.ipynb
+
+Bash
+git clone [https://github.com/GSA-commits/ml-ids-developer-trust.git](https://github.com/GSA-commits/ml-ids-developer-trust.git)
+cd ml-ids-developer-trust
+Install dependencies:
+
+Bash
+pip install -r requirements.txt
+Dataset Setup:
+Download UNSW_NB15_training-set.csv and UNSW_NB15_testing-set.csv from the UNSW-NB15 Dataset Page and place them in data/raw/.
+
+Run Model Experiments:
+Launch Jupyter Notebook or Google Colab and execute:
+
+Bash
+jupyter notebook notebooks/ml_ids_false_positive_experiment.ipynb
