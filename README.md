@@ -62,15 +62,19 @@ Classification threshold tuning on the Random Forest model was used to simulate 
 
 ---
 
-## Getting Started
+## Repository Structure
 
-### Prerequisites
-- Python 3.8+
-- Jupyter Notebook / Google Colab
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/GSA-commits/ml-ids-developer-trust.git](https://github.com/GSA-commits/ml-ids-developer-trust.git)
-   cd ml-ids-developer-trust
+```text
+ml-ids-developer-trust/
+├── data/
+│   ├── raw/                      # Instructions / location for UNSW-NB15 files
+│   └── processed/                # Preprocessed feature arrays
+├── notebooks/
+│   └── ml_ids_false_positive_experiment.ipynb # Full pipeline & ML execution
+├── survey/
+│   ├── survey_instrument.pdf     # Questionnaire structure
+│   └── responses_anonymized.xlsx # Anonymized developer survey results
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
