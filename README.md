@@ -79,43 +79,31 @@ ml-ids-developer-trust/
 ├── README.md
 └── requirements.txt
 
-Getting Started
-Prerequisites
-Python 3.8+
+## Getting Started
 
-Jupyter Notebook / Google Colab
+### Prerequisites
+- Python 3.8+
+- Jupyter Notebook / Google Colab
 
-Installation & Execution
-Clone the repository:
+### Installation & Execution
 
-Bash
-git clone [https://github.com/GSA-commits/ml-ids-developer-trust.git](https://github.com/GSA-commits/ml-ids-developer-trust.git)
-cd ml-ids-developer-trust
-Install dependencies:
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/GSA-commits/ml-ids-developer-trust.git](https://github.com/GSA-commits/ml-ids-developer-trust.git)
+   cd ml-ids-developer-trust
 
-Bash
-pip install -r requirements.txt
-Dataset Setup:
-Download UNSW_NB15_training-set.csv and UNSW_NB15_testing-set.csv from the UNSW-NB15 Dataset Page and place them in data/raw/.
 
-Run Model Experiments:
-Launch Jupyter Notebook or Google Colab and execute:
+### Installation & Execution
 
-Bash
-jupyter notebook notebooks/ml_ids_false_positive_experiment.ipynb
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+### Dataset Setup & Model Execution
 
-Bash
-git clone [https://github.com/GSA-commits/ml-ids-developer-trust.git](https://github.com/GSA-commits/ml-ids-developer-trust.git)
-cd ml-ids-developer-trust
-Install dependencies:
+1. **Dataset Setup:**
+   Download `UNSW_NB15_training-set.csv` and `UNSW_NB15_testing-set.csv` from the [UNSW-NB15 Dataset Page](https://research.unsw.edu.au/projects/unsw-nb15-dataset) and place them in `data/raw/`.
 
-Bash
-pip install -r requirements.txt
-Dataset Setup:
-Download UNSW_NB15_training-set.csv and UNSW_NB15_testing-set.csv from the UNSW-NB15 Dataset Page and place them in data/raw/.
-
-Run Model Experiments:
-Launch Jupyter Notebook or Google Colab and execute:
-
-Bash
-jupyter notebook notebooks/ml_ids_false_positive_experiment.ipynb
+2. **Run Model Experiments:**
+   Launch Jupyter Notebook or Google Colab and execute:
+   ```bash
+   jupyter notebook notebooks/ml_ids_false_positive_experiment.ipynb
